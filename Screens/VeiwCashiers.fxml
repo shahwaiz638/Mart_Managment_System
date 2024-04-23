@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.ViewCashiersController">
+   
+   <center>
+     
+   </center>
+   <center>
+      <TableView fx:id="tableCashier" prefHeight="374.0" prefWidth="539.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="Name" prefWidth="75.0" text="Name" />
+            <TableColumn fx:id="phone" prefWidth="75.0" text="phone" />
+            <TableColumn fx:id="cnic" prefWidth="75.0" text="cnic" />
+            <TableColumn fx:id="username" prefWidth="74.0" text="username" />
+            <TableColumn fx:id="password" prefWidth="75.0" text="password" />
+        </columns>
+      </TableView>
+   </center>
+</BorderPane>

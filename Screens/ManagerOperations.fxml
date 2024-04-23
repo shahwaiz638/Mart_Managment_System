@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.ManagerOperationController">
+   <right>
+      <VBox prefHeight="400.0" prefWidth="252.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="66.0" prefWidth="252.0">
+               <children>
+                  <Button fx:id="deactivate" mnemonicParsing="false" onAction="#deactivate" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="DeActivate System" textFill="#0c0c40">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="66.0" prefWidth="252.0">
+               <children>
+                  <Button fx:id="addcashier" mnemonicParsing="false" onAction="#addCashier" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="Add Cashier" textFill="#0c0c40">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="252.0">
+               <children>
+                  <Button fx:id="removecashier" mnemonicParsing="false" onAction="#removeCashier" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="Remove Cashier" textFill="#0c0c40">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="70.0" prefWidth="252.0">
+               <children>
+                  <Button fx:id="addsupplier" mnemonicParsing="false" onAction="#addSupplier" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="Add Supplier" textFill="#0c0c40">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="66.0" prefWidth="252.0">
+               <children>
+                  <Button fx:id="viewinventory" mnemonicParsing="false" onAction="#viewInventory" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="View Inventory" textFill="#0c0c40">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </right>
+   <center>
+      <VBox prefHeight="400.0" prefWidth="370.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="64.0" prefWidth="252.0">
+               <children>
+                  <Button fx:id="activate" mnemonicParsing="false" onAction="#cashierLogin" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="Cashier login" textFill="#0c0c40">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="66.0" prefWidth="252.0">
+               <children>
+                  <Button fx:id="viewCashiers" mnemonicParsing="false" onAction="#veiwCashiers" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="Veiw Cashiers" textFill="#0c0c40">
+                     <font>
+                        <Font name="Impact" size="22.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <Button fx:id="activate" mnemonicParsing="false" onAction="#ActivateSystem" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="Activate System" textFill="#0c0c40">
+               <font>
+                  <Font name="Impact" size="22.0" />
+               </font>
+            </Button>
+            <Button fx:id="supplier" mnemonicParsing="false" onAction="#Supplier" prefHeight="39.0" prefWidth="212.0" style="-fx-background-color: #F4BB44; -fx-background-radius: 50; -fx-border-radius: 50;" text="Supplier" textFill="#0c0c40">
+               <font>
+                  <Font name="Impact" size="22.0" />
+               </font>
+            </Button>
+         </children></VBox>
+   </center>
+</BorderPane>
